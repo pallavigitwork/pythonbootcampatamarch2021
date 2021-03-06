@@ -1,0 +1,719 @@
+What is programming
+Why Python
+Basic data types and operators
+Loops and Conditions
+Collections in Python
+OOPs
+Exception Handling
+PIP Module - example selenium. 
+Reference Link - https://www.w3schools.com/python/
+
+PCEP -
+https://pythoninstitute.org/certification/pcep-certification-entry-level/
+
+
+
+Program -- a set of instructions given to a system with some input to get a desired output. 
+
+-- algorithm/pseudo code/ logic
+
+-- syntax of the program. 
+
+
+
+Q1. For a radius, find area of a circle. 
+
+-- define radius as rad=0.0
+--define area=0.0 
+-- calculate area using the formula - area = 3.141*rad*rad
+--print area
+
+java or in python -- 
+
+syntax will change 
+
+class AreaOfCircle{
+	public static void main(String[] args){
+		double rad=0.0;
+		double area=0.0;
+		area=3.141*rad*rad;
+		System.out.println(area);
+	}
+}
+
+
+rad=0.0
+area=0.0
+area=3.141*rad*rad
+print(area)
+
+
+
+hello world 
+
+
+data types in python
+
+number  
+
+string
+
+boolean
+
+
+- a user for input -- 
+
+string
+console- string
+
+
+
+Q1. Ask user for two numbers, and create a calc service for them 
+
+int()
+float()
+
+
+Q2. Ask user to enter principle use it as integer, rate, use it as float, and time use it as int.
+calculate SI = P*r*T/100
+print SI
+
+Operators --
+
+
+mod -- 
+
+12%3=0 
+
+45%10 = 5
+
++,-,*,/,%
+
+comparison oprts 
+
+<
+>
+<=
+>=
+==
+!=
+
+if(a>b):
+	certain path
+
+Boolean vars
+
+False
+True
+
+OR
+AND
+NOT
+
+OR
+a	b	a or b
+T	T	T
+F	T	T
+T	F	T
+F	F	F
+
+AND
+a	b	a and b
+T	T	T
+F	T	F
+T	F	F
+F	F	F
+
+NOT
+a	!a
+T	F
+F	T
+
+Conditional statement
+-
+if
+if else
+if elif else
+
+a. if(condition):
+	statements
+
+b. if(condition):
+	//st
+    else:
+	//st
+
+if(condition1):
+	st
+elif(condition2):
+	st
+elif(condition3):
+	st
+else:
+	st
+
+if(main condt):
+	if(sub condition)
+
+
+
+Q4. Ask user for a number, find whether even or odd. 
+
+number%2==0 -- even 
+
+
+Q5 . find bonus of an employee based on years of work, and print salary with bonus.
+
+yrs	bonus
+0-3	3%
+3-5	5%
+5>	10%
+
+
+if(yow>=0) and (yow<3))
+	st
+elif(
+
+
+
+While Loop 
+
+while(condition):
+	staments
+
+
+
+Q5. Find all odd numbers between 1-100
+
+
+break -- to exit the loop. 
+
+
+Q6. ask user to enter a number, find whether even or odd, keep repeating.
+if entered a number < 0, exit the code. 
+
+
+{
+	code 
+}
+
+
+range(start,end,step)
+
+for var in range():
+	work with var datapoint. 
+
+
+Q7. Ask user for a number, print its table from 1..10. 
+
+number X 1 =number
+number X 2= ..
+
+
+
+Collections -
+
+List
+List items are ordered, changeable, and allow duplicate values.  
+
+Tuple
+ordered, unchangeable, and allow duplicate values.  
+
+Set
+collection which is both unordered and unindexed.  -- unique values
+
+
+Dictionary
+ordered*, changeable and does not allow duplicates.
+
+
+List
+Dictionary 
+
+
+a collection of collections -- complex data structures. 
+
+
+
+Q9. Create a list of 10 numbers, and print the max, min, and average of the list. 
+
+-- create an empty list.
+--for loop - 10 times 
+ask user for data and add it to the list.
+
+then i will write other code - to find
+average
+min
+max
+
+
+Q10. Create dictionary which stores employee information. 
+EmpID: Emp name, EmpSalar, EmpDesign
+
+-- print informaton. 
+
+
+emp id is unique === key 
+
+emp data == [] , () 
+
+key=> value 
+
+list of keys ==> a list of values. 
+
+
+OOPs
+everything around us is an object. 
+
+set of properties and a set of functions. 
+
+
+age
+gender
+height
+weight
+
+
+..
+
+canTalk
+canEat
+canDance
+
+
+Car 
+
+seatCapa
+engineType
+color
+
+mileage
+serviceReqd
+
+
+
+BankAcc
+
+acc number
+acctype
+balance
+
+credit
+debit
+
+
+Class- a template or a blueprint from which objects are derived.
+an object is also known as an instance of a class. 
+
+class - object of the class
+inheritance. 
+Exception handling -- 
+
+PIP
+
+Inheritance -- 
+
+Animal 
+2 props and one funct
+Landanimal
+
+WaterAnimal
+
+Parent - Child relationship. 
+
+all the properties and functions of the parent class, are available to the child class. 
+
+
+
+Exception handling --
+
+errors 
+
+exceptions
+
+try:
+	//statements prone to error/exception
+
+except:
+
+PIP-
+
+WebDriverManager- https://pypi.org/project/webdriver-manager/
+
+Split.
+
+str= "I:am:Bond"
+
+newstr =" I am Bond"
+
+
+Split functions -- string object 
+
+breaks a string into a collection of list items based on a delimeter. 
+
+
+
+Carlos Soltero
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
